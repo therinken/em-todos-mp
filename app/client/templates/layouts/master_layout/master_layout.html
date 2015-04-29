@@ -1,0 +1,19 @@
+<template name="MasterLayout">
+    <div class="container">
+        <div class="log">
+            <!-- login buttons -->
+        </div>
+
+        <div class="row">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="/">Home</a>
+                    <span class="divider"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            {{> yield}}
+        </div>
+    </div>
+</template>
