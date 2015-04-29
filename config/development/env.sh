@@ -6,4 +6,5 @@
 # export MONGO_URL="mongodb://localhost:27017/myapp-development"
 # export ROOT_URL="http://localhost:3000"
 
-export SAMPLE_VARIABLE="somevalue"
+export ACCOUNTS_METEOR_ID="7dk4xCeSbwH8ZzScA"
+export ACCOUNTS_METEOR_SECRET="BNG4GznDt7wFuui3b4gouKG8X5893ecFd6"
