@@ -5,7 +5,7 @@ ServiceConfiguration.configurations.upsert({
 }, {
     $set: {
         clientId: process.env['ACCOUNTS_METEOR_ID'],
-        loginStyle: "popup",
-        secret: process.env['ACCOUNTS_METEOR_SECRET']
+        secret: process.env['ACCOUNTS_METEOR_SECRET'],
+        loginStyle: "popup"
     }
 });

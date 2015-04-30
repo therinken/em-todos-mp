@@ -3,9 +3,8 @@
         <input type="checkbox" name="isDone" {{isDoneChecked}}/>
     </div>
     <div class="subject">
-        {{subject}}
-    </div>
-    <div class="action">
-    
+        {{#linkTo route='todos.detail'}}
+            {{subject}}
+        {{/linkTo}}
     </div>
 </template>
