@@ -19,6 +19,13 @@ Meteor.publish('todo', function(id) {
         }),
         Todos.find({
             _id: id
+        }),
+        Comments.find({
+            todoId: id
+        }, {
+            sort: {
+                createdAt: -1
+            }
         })
     ];
 });
